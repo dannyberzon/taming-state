@@ -31,6 +31,7 @@ import React from 'react';
       return (
         <form onSubmit={this.onSubmit}>
         <input
+          value={this.state.query}
           onChange={this.onChange}
           type="text"
         />
